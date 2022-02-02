@@ -1,0 +1,60 @@
+.formBox {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 50px 70px 30px 70px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2.5rem 8rem 2rem rgb(0 0 0 / 6%);
+}
+
+.formBox h2 {
+    background-image: -webkit-gradient( linear, left top, right top, from(#7dd56f), to(#28b487) );
+    background-image: linear-gradient(to right, #7dd56f, #28b487);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+}
+
+.formBox label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.formBox label span {
+    display: block;
+    color: #686868;
+    font-weight: 500;
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+}
+
+.formBox label input {
+    width: 100%;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 1.05rem;
+    font-weight: 300;
+    background: #f7f7f7;
+    border: 0px;
+    height: 40px;
+    color: #686868;
+    border-radius: 5px
+}
+
+.formBox button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 0px;
+    background: #55C57A;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.formBox p {
+    color: red;
+}

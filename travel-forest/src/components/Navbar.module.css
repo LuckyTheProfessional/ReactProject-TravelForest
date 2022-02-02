@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500;600&display=swap');
+
+.navbarBox {
+    background-image: -webkit-gradient( linear, left top, right bottom, from(#7dd56f), to(#28b487) );
+    background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+    opacity: 0.9;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.navbarInBox {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.titleTravel {
+    font-family: 'Sansita Swashed', 'cursive';
+    color: #1E8540;
+}
+
+.titleForest {
+    font-weight: 600;
+    color: #282828;
+}
+
+.navbarControl {
+    font-size: 1.4rem;
+    display: flex;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navbarControl p {
+    padding-left: 25px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.navbarControl p a{
+    padding-left: 25px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbarControl .name {
+    font-size: 1.1rem;
+    cursor:auto;
+}
+
+.navbarControl button {
+    margin-left: 25px;
+    padding: 4px 15px 4px 15px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.navbarControl button:hover {
+    background: #fff;
+    color: #55C57A;
+    transition: 0.3s ease-in-out;
+}

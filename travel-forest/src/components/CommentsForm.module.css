@@ -1,0 +1,42 @@
+.allCommentsBox {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.allCommentsBox form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allCommentsBox textarea {
+    width: 1200px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #55c57a;
+    background: #f7f7f7;
+}
+
+.allCommentsBox button {
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.02rem;
+    /* text-transform: uppercase; */
+    font-weight: 200;
+    background: #55c57a;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.allCommentsBox button:hover {
+    transition: 0.3s;
+    outline: 2px solid #55c57a;
+    color: #55c57a;
+    background: #fff;
+}

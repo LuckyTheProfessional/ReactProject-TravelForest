@@ -1,0 +1,165 @@
+.travelAllBox {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+} 
+
+.travelAllBox h2 {
+    /* font-family: 'Lora', serif; */
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background-image: -webkit-gradient( linear, left top, right top, from(#7dd56f), to(#28b487) );
+    background-image: linear-gradient(to right, #7dd56f, #28b487);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #28b487;
+    padding-bottom: 10px;
+}
+
+.travelInBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    grid-gap: 60px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+.travelInBox .oneTravel {
+    position: relative;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 10%);
+    box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 10%);
+    background: #fff;
+}
+
+.travelInBox .oneTravel img {
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.travelInBox .oneTravel .travelImage {
+    position: relative;
+    height: 230px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.travelInBox .oneTravel .travelImage div {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 230px;
+    background-image: -webkit-gradient( linear, left top, right bottom, from(#7dd56f), to(#28b487) );
+    background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+    opacity: 0.6;
+}
+
+.travelInBox .oneTravel .travelTitle {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.travelInBox .oneTravel .travelTitle .titleOne {
+    color: #fff;
+    background-image: -webkit-gradient( linear, left top, right bottom, from(#7dd56f), to(#28b487) );
+    background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+    opacity: 0.8;
+    font-weight: 200;
+    display: block;
+    padding: 5px;
+    /* font-family: 'Lora', serif; */
+}
+
+.travelInBox .oneTravel .travelTitle .titleTwo {
+    color: #fff;
+    background-image: -webkit-gradient( linear, left top, right bottom, from(#7dd56f), to(#28b487) );
+    background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+    opacity: 0.9;
+    font-weight: 200;
+    position: absolute;
+    top: 40px;
+    padding: 5px;
+}
+
+.travelInBox .oneTravel .aboutTravel {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: #777;
+    font-weight: 300;
+}
+
+.travelInBox .oneTravel .locationAndPeople {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.travelInBox .oneTravel .locationAndPeople .location {
+    display: flex;
+    align-items: center;
+}
+
+.travelInBox .oneTravel .locationAndPeople .location i {
+    margin-right: 7px;
+    color: #55c57a;
+}
+
+.travelInBox .oneTravel .locationAndPeople .location div {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #777;
+}
+
+.travelInBox .oneTravel .locationAndPeople .people {
+    display: flex;
+    align-items: center;
+}
+
+.travelInBox .oneTravel .locationAndPeople .people div {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #777;
+}
+
+.travelInBox .oneTravel .locationAndPeople .people i {
+    margin-right: 7px;
+    color: #55c57a;
+}
+
+.travelInBox .oneTravel button {
+    margin-left: 17px;
+    margin-top: 25px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.08rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    background: #55c57a;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.travelInBox .oneTravel button:hover {
+    transition: 0.3s;
+    outline: 2px solid #55c57a;
+    color: #55c57a;
+    background: #fff;
+}
